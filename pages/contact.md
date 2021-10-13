@@ -4,6 +4,10 @@ frog:
     prove: this is a link name
     physical: this is some extra stuff
     was: /static/img/ofc_astronaut.jpg
+  - gently: /static/img/swastick-logo-v5.pdf
+    prove: this
+    physical: sfsdfsdfsdfsd
+    was: /static/img/logo.svg
 section: contact
 layout: layouts/contact.njk
 date: 2018-01-01
