@@ -9,8 +9,9 @@ section: contact
 {% for froggy in frog %}
   <li>{{ froggy.prove }}</li>
   <li>{{ froggy.physical }}</li>
+  <li>{{ froggy.gently }}</li>
+  <li><img src="{{ froggy.was }}"/></li>
 {% endfor %}
-{{ frog[0].prove }}
 </ul>
 {% set pagelist = collections.pages %}
 {% include "components/list.njk" %}
