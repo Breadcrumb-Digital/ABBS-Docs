@@ -38,87 +38,37 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
-backend:
-  name: git-gateway
-  branch: master
-media_folder: static/img
-public_folder: /img
-collections:
-  - name: projects
-    label: Projects
-    folder: src/pages/projects
-    create: true
-    slug: "{{slug}}"
-    fields:
-      - label: Template Key
-        name: templateKey
-        widget: hidden
-        default: project-page
-      - label: Title
-        name: title
-        widget: string
-      - label: Featured Post
-        name: featuredpost
-        widget: boolean
-        default: false
-      - label: Excerpt
-        name: excerpt
-        widget: markdown
-      - label: Description
-        name: description
-        widget: markdown
-      - label: Publish Date
-        name: date
-        widget: datetime
-      - label: External link
-        name: externalLink
-        widget: string
-        required: false
-        default: ""
-      - label: Gallery
-        name: gallery
+      - label: Frog
+        name: frog
+        required: true
         widget: list
+        hint: ""
+        default: ""
+        allow_add: true
         fields:
-          - label: Image
-            name: image
-            widget: image
-          - label: Label
-            name: label
-            widget: markdown
-            required: false
-            default: ""
-          - label: Frog
-            name: frog
+          - label: Gently
+            name: gently
             required: true
-            widget: list
+            widget: file
             hint: ""
             default: ""
-            allow_add: true
-            fields:
-              - label: Gently
-                name: gently
-                required: true
-                widget: file
-                hint: ""
-                default: ""
-                allow_multiple: true
-              - label: Prove
-                name: prove
-                required: true
-                widget: string
-                hint: ""
-                default: ""
-              - label: Physical
-                name: physical
-                required: true
-                widget: string
-                hint: ""
-                default: ""
-              - label: Was
-                name: was
-                required: true
-                widget: image
-                hint: ""
-                default: ""
-                allow_multiple: true
-
+            allow_multiple: true
+          - label: Prove
+            name: prove
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Physical
+            name: physical
+            required: true
+            widget: string
+            hint: ""
+            default: ""
+          - label: Was
+            name: was
+            required: true
+            widget: image
+            hint: ""
+            default: ""
+            allow_multiple: true
