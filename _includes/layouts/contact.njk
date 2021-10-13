@@ -12,5 +12,6 @@ section: contact
   <li>{{ item.prove }}</li>
 {% endfor %}
 </ul>
-
+{% set pagelist = collections.pages %}
+{% include "components/list.njk" %}
 {% include "components/form.njk" %}
