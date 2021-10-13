@@ -6,12 +6,7 @@ section: contact
 
 {{ layoutContent | safe }}
 
-<ul>
-{% for item in frog %}
-  <li>{{ item.title }}</li>
-  <li>{{ item.prove }}</li>
-{% endfor %}
-</ul>
+
 {% set pagelist = collections.pages %}
 {% include "components/list.njk" %}
 {% include "components/form.njk" %}
