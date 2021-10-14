@@ -38,7 +38,13 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: "Frog", name: "frog", required: true, widget: list, hint: "", default: "", allow_add: true,
+      - label: "Frog", 
+        name: "frog", 
+        required: true, 
+        widget: list, 
+        hint: "", 
+        default: "", 
+        allow_add: true,
         fields:
           - { label: "Gently", name: "gently", required: true, widget: file, hint: "", default: "", allow_multiple: true}
           - { label: "Prove", name: "prove", required: true, widget: string, hint: "", default: ""}
