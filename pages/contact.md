@@ -19,7 +19,7 @@ permalink: /contact/index.html
 metaDescription: This is a sample meta description. If one is not present in
   your page/post's front matter, the default metadata.desciption will be used
   instead.
-title: PDF and other files list
+title: PDF and other files lists
 eleventyNavigation:
   key: Contact
   order: 3
