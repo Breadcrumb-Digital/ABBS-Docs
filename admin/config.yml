@@ -48,5 +48,5 @@ collections:
         fields:
           - { label: "Gently", name: "gently", required: true, widget: file, hint: "", default: "", allow_multiple: true}
           - { label: "Prove", name: "prove", required: true, widget: string, hint: "", default: ""}
-          - { label: "Physical",name: "physical", required: true, widget: string, hint: "", default: ""},
+          - { label: "Physical",name: "physical", required: true, widget: string, hint: "", default: ""}
           - { label: "Was", name: "was", required: true, widget: image, hint: "", default: "", allow_multiple: true }
