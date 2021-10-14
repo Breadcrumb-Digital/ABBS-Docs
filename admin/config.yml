@@ -38,7 +38,7 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
-      - {label: Frog
+      - label: Frog
         name: frog
         required: true
         widget: list
@@ -72,4 +72,4 @@ collections:
             hint: ""
             default: ""
             allow_multiple: true
-            }
+            
