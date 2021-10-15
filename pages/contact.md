@@ -12,6 +12,10 @@ frog:
     prove: Harsha
     physical: don't click this
     was: /static/img/logo.png
+  - gently: /static/img/swastick-logo-v5.pdf
+    prove: serfwrwer
+    physical: werwerweqrwer
+    was: /static/img/ofc_astronaut.jpg
 section: contact
 layout: layouts/contact.njk
 date: 2018-01-01
@@ -19,9 +23,9 @@ permalink: /contact/index.html
 metaDescription: This is a sample meta description. If one is not present in
   your page/post's front matter, the default metadata.desciption will be used
   instead.
-title: PDF and other files lists
+title: Not a blog
 eleventyNavigation:
   key: Contact
   order: 3
 ---
-You can find list of items here
+You can find list of items here. tjhis is thwe body text.
