@@ -65,11 +65,4 @@ collections:
             widget: string
             hint: ""
             default: ""
-          - label: Was
-            name: was
-            required: true
-            widget: image
-            hint: ""
-            default: ""
-            allow_multiple: true
             
