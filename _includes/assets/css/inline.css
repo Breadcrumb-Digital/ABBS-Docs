@@ -224,6 +224,7 @@ button {
   text-align: left;
   white-space: normal;
 }
+
 @media (min-width: 48rem) {
   .table__head .table__body, .table__head .table__row, .table__head .table__cell {
     padding: 15px;
@@ -284,8 +285,10 @@ button {
     display: none;
     content: "";
   }
+  main {margin-top: 0rem;}
 }
 .table__cell--spanned {
   font-size: 1.2rem;
   font-weight: bold;
 }
+main {margin-top: 7rem;}
