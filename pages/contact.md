@@ -32,5 +32,9 @@ list:
     name: File 1
     description: This is the file showing some important information
     date: October 26, 2021 10:17 AM
+  - asset: /static/img/wordpress-5.7.2.zip
+    name: File 2
+    description: This can be anything to describe the file
+    date: October 29, 2021 6:10 AM
 ---
 You can find list of items here.
