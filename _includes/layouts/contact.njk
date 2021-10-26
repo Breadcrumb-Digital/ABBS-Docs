@@ -5,11 +5,6 @@ section: contact
 <h1>{{ title }}</h1>
 
 {{ layoutContent | safe }}
-<ul>
-{% for froggy in frog %}
-  <li>{{ froggy.prove }} -- {{ froggy.physical }} -- <a href="{{ froggy.gently }}" target="_blank">file</a> </li>
-{% endfor %}
-</ul>
 
 <table class="sheru-cp-section table">
   <thead class="table__head">
@@ -21,6 +16,7 @@ section: contact
     </tr>
   </thead>
   <tbody class="table__body">
+  {% for froggy in frog %}
     <tr class="table__row">
       <th class="table__cell table__cell--head" scope="row" data-title="Name">
         {{ froggy.prove }}
@@ -35,6 +31,7 @@ section: contact
         <a download href="{{ froggy.gently }}">Download</a>
       </td>
     </tr>
+    {% endfor %}
   </tbody>
 </table>
 
