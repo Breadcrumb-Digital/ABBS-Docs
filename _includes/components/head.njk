@@ -10,9 +10,9 @@
 <link rel="stylesheet" href="https://abbs.edu.in/wp-content/themes/master-theme/js/slicknav.css">
   {% set css %}
     {% include "assets/css/inline.css" %}
-    {% include "assets/css/style.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
+  <link rel="stylesheet" href="assets/css/style.css">
   {% set js %}
     {% include "assets/js/inline.js" %}
   {% endset %}
