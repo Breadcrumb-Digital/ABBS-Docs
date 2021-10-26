@@ -194,3 +194,105 @@ button {
 		font-size: 1.1rem;
 	}
 }
+.table {
+  transition: 0.5s;
+  padding-bottom: 0;
+  width: 100%;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+  border: 2px solid #0f6446;
+  font-family: "Dosis", sans-serif;
+}
+@media (min-width: 48rem) {
+  .table {
+    max-width: 900px;
+  }
+}
+.table__head {
+  display: none;
+  visibility: hidden;
+}
+@media (min-width: 48rem) {
+  .table__head {
+    width: 100%;
+    display: table-header-group;
+    visibility: visible;
+    color: white;
+  }
+}
+.table__body, .table__row, .table__cell {
+  display: block;
+  border: 0;
+  padding: 0;
+  text-align: left;
+  white-space: normal;
+}
+@media (min-width: 48rem) {
+  .table__head .table__body, .table__head .table__row, .table__head .table__cell {
+    padding: 20px;
+    text-shadow: 0 1px 0 black;
+    text-align: center;
+    font-size: 1.35rem;
+    background: #47b48f;
+    box-shadow: inset 0px 1px 2px #8ed3bb;
+    border: 1px solid #2a6b55;
+  }
+}
+.table__row {
+  margin-bottom: 10px;
+  background-color: #c8f7e6;
+}
+@media (min-width: 48rem) {
+  .table__row {
+    display: table-row;
+    width: 100%;
+  }
+  .table__row .table__cell {
+    display: table-cell;
+  }
+}
+.table__row:nth-child(even) {
+  background-color: #defaf0;
+}
+.table__cell {
+  padding: 6px;
+  transition: 1s;
+}
+.table__body .table__cell {
+  text-align: left;
+  padding: 16px;
+  border: 1px solid #9cf0d2;
+  box-shadow: inset 0px 1px 2px white;
+}
+.table__body {
+  display: table-row-group;
+}
+.table__cell[data-title]:before {
+  display: inline-block;
+  min-width: 120px;
+  content: attr(data-title) ":";
+  font-weight: bold;
+}
+@media (min-width: 48rem) {
+  .table__cell[data-title]:before {
+    display: none;
+    content: "";
+  }
+}
+.table__cell:empty {
+  display: none;
+}
+@media (min-width: 48rem) {
+  .table__cell:empty {
+    display: table-cell;
+  }
+}
+@media (min-width: 48rem) {
+  .table__cell--head[data-title]:before {
+    display: none;
+    content: "";
+  }
+}
+.table__cell--spanned {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
