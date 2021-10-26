@@ -254,7 +254,7 @@ button {
 }
 .table__body .table__cell {
   text-align: left;
-  padding: 16px;
+  padding: 10px;
 }
 .table__body {
   display: table-row-group;
