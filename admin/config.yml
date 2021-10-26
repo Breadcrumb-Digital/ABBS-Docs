@@ -38,29 +38,29 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
-      - label: Frog
-        name: frog
+      - label: List
+        name: list
         required: true
         widget: list
         hint: ""
         default: ""
         allow_add: true
         fields:
-          - label: Gently
-            name: gently
+          - label: Asset
+            name: asset
             required: true
             widget: file
             hint: ""
             default: ""
             allow_multiple: true
-          - label: Prove
-            name: prove
+          - label: Name
+            name: name
             required: true
             widget: string
             hint: ""
             default: ""
-          - label: Physical
-            name: physical
+          - label: Description
+            name: description
             required: true
             widget: string
             hint: ""
