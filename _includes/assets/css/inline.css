@@ -198,9 +198,6 @@ button {
   transition: 0.5s;
   padding-bottom: 0;
   width: 100%;
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
-  border: 2px solid #0f6446;
-  font-family: "Dosis", sans-serif;
 }
 @media (min-width: 48rem) {
   .table {
@@ -228,18 +225,15 @@ button {
 }
 @media (min-width: 48rem) {
   .table__head .table__body, .table__head .table__row, .table__head .table__cell {
-    padding: 20px;
+    padding: 15px;
     text-shadow: 0 1px 0 black;
     text-align: center;
-    font-size: 1.35rem;
-    background: #47b48f;
-    box-shadow: inset 0px 1px 2px #8ed3bb;
-    border: 1px solid #2a6b55;
+    background: #313032;
   }
 }
 .table__row {
   margin-bottom: 10px;
-  background-color: #c8f7e6;
+  background-color: #fff;
 }
 @media (min-width: 48rem) {
   .table__row {
@@ -251,7 +245,7 @@ button {
   }
 }
 .table__row:nth-child(even) {
-  background-color: #defaf0;
+  background-color: #dfdfdf;
 }
 .table__cell {
   padding: 6px;
@@ -260,8 +254,6 @@ button {
 .table__body .table__cell {
   text-align: left;
   padding: 16px;
-  border: 1px solid #9cf0d2;
-  box-shadow: inset 0px 1px 2px white;
 }
 .table__body {
   display: table-row-group;

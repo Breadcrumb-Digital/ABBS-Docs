@@ -5,8 +5,9 @@ section: contact
 <h1>{{ title }}</h1>
 
 {{ layoutContent | safe }}
-
-<table class="sheru-cp-section table">
+<div id="fullwidth" class="ls-overflow-visible">
+		<div id="contain">
+<table class="sheru-cp-section table wrap">
   <thead class="table__head">
     <tr class="table__row">
       <th class="table__cell table__cell--head" scope="col">Name</th>
@@ -38,6 +39,7 @@ section: contact
     {% endfor %}
   </tbody>
 </table>
-
+</div>
+</div>
 {% set pagelist = collections.pages %}
 {% include "components/list.njk" %}
