@@ -69,7 +69,7 @@ collections:
             name: date
             required: true
             widget: datetime
-            hint: "Date of issue"
+            hint: ""
             default: ""
             date_format: "DD.MM.YYYY" # e.g. 24.12.2021
             time_format: "HH:mm" # e.g. 21:07
