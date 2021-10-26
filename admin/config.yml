@@ -46,27 +46,27 @@ collections:
         default: ""
         allow_add: true
         fields:
-          - label: Asset
-            name: asset
+          - label: "Asset"
+            name: "asset"
             required: true
             widget: file
             hint: ""
             default: ""
             allow_multiple: true
-          - label: Name
-            name: name
+          - label: "Name"
+            name: "name"
             required: true
             widget: string
             hint: ""
             default: ""
-          - label: Description
-            name: description
+          - label: "Description"
+            name: "description"
             required: true
             widget: string
             hint: ""
             default: ""
-          - label: Date
-            name: date
+          - label: "Date"
+            name: "date"
             required: true
             widget: datetime
             hint: ""
