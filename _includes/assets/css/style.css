@@ -15,19 +15,19 @@
  
 @font-face {
 	font-family: HKGrotesk;  
-	src: url('assets/fonts/HKGrotesk-Regular.ttf') format('truetype');
+	src: url('/static/fonts/HKGrotesk-Regular.ttf') format('truetype');
 	font-weight: normal;  
 }
 
 @font-face {
 	font-family: HKGarotesk;  
-	src: url('assets/fonts/HKGrotesk-Regular.ttf') format('truetype');
+	src: url('/static/fonts/HKGrotesk-Regular.ttf') format('truetype');
 	font-weight: normal;  
 }
 
 @font-face {
 	font-family: HK Grotesk;  
-	src: url('assets/fonts/hk-grotesk.regular.ttf') format('truetype');
+	src: url('/static/fonts/hk-grotesk.regular.ttf') format('truetype');
 	font-weight: normal;  
 }
 
@@ -39,13 +39,13 @@
 
 @font-face {
 	font-family: HK Grotesk Medium;  
-	src: url('assets/fonts/hk-grotesk.medium.ttf') format('truetype');
+	src: url('/static/fonts/hk-grotesk.medium.ttf') format('truetype');
 	font-weight: 400;  
 }
 
 @font-face {
 	font-family: HK Grotesk SemiBold;  
-	src: url('assets/fonts/hk-grotesk.semibold.ttf') format('truetype');
+	src: url('/static/fonts/hk-grotesk.semibold.ttf') format('truetype');
 	font-weight: 700;  
 }
 /*
