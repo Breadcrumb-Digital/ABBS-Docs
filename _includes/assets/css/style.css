@@ -33,7 +33,7 @@
 
 @font-face {
 	font-family: HK Grotesk;  
-	src: url('assets/fonts/hk-grotesk.bold.ttf') format('truetype');
+	src: url('/static/fonts/hk-grotesk.bold.ttf') format('truetype');
 	font-weight: bold;  
 }
 
