@@ -28,4 +28,4 @@ eleventyNavigation:
   key: Contact
   order: 3
 ---
-You can find list of items here. tjhis is thwe body text.
+You can find list of items here.
