@@ -65,8 +65,8 @@ collections:
             widget: string
             hint: ""
             default: ""
-          - label: Time
-            name: time
+          - label: Date
+            name: date
             required: true
             widget: datetime
             hint: Date of issue
