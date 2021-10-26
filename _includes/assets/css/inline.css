@@ -202,6 +202,7 @@ button {
 @media (min-width: 48rem) {
   .table {
     max-width: 98vw !important;
+    width: 98vw !important;
   }
 }
 .table__head {
