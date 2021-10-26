@@ -7,6 +7,10 @@ eleventyNavigation:
   key: Home
   order: 0
 list:
+  - asset: /static/img/admission.jpg
+    name: "1"
+    description: "2"
+    date: October 19, 2021 12:00 AM
   - asset: /static/img/wcd-pitch-2.0.pdf
     name: File 1
     description: This is the file showing some important information
@@ -15,9 +19,5 @@ list:
     name: File 2
     description: This can be anything to describe the file
     date: October 29, 2021 6:10 AM
-  - asset: /static/img/admission.jpg
-    name: "1"
-    description: "2"
-    date: October 19, 2021 12:00 AM
 ---
 You can find list of docs here.
