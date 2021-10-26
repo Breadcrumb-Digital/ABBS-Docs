@@ -27,5 +27,10 @@ title: Docs Demo page
 eleventyNavigation:
   key: Contact
   order: 3
+list:
+  - asset: /static/img/wcd-pitch-2.0.pdf
+    name: File 1
+    description: This is the file showing some important information
+    date: October 26, 2021 10:17 AM
 ---
 You can find list of items here.
