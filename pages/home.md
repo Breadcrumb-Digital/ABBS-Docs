@@ -19,10 +19,10 @@ list:
     description: " "
   - asset: https://abbs.edu.in/wp-content/uploads/2021/03/IACEB_2021.pdf
     name: IACBE
-    description: .
+    description: ""
   - asset: https://abbs.edu.in/wp-content/uploads/2018/08/AICTE-OA-Report_2018-19.pdf
     name: AICTE. EoA
-    description: .
+    description: ""
   - asset: https://abbs.edu.in/wp-content/uploads/2019/04/FormNo_10B.pdf
     name: Form No.10B
     description: "[Audit Report Under Section 12A 9b)]"
