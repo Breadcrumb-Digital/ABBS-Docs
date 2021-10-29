@@ -61,7 +61,7 @@ collections:
             default: ""
           - label: "Description"
             name: "description"
-            required: true
+            required: false
             widget: string
             hint: ""
             default: ""
