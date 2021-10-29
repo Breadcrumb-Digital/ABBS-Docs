@@ -291,4 +291,4 @@ button {
   font-size: 1.2rem;
   font-weight: bold;
 }
-main {margin-top: 7rem;}
+main {margin-top: 0rem; padding:0 !important;}
