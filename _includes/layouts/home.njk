@@ -3,7 +3,6 @@ layout: layouts/base.njk
 section: home
 ---
 
-<h1>{{ title }}</h1>
 
 
 <div id="fullwidth" class="ls-overflow-visible">
@@ -43,7 +42,7 @@ section: home
 </table>
 </div>
 </div>
- <iframe src="https://abbs-docs.netlify.app" title="ABBS Docs"></iframe> 
+ <iframe src="https://abbs-docs.netlify.app" title="ABBS Docs" width="100%" height="100%"></iframe> 
 
 {% set pagelist = collections.pages %}
 {% include "components/list.njk" %}
