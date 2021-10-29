@@ -5,21 +5,9 @@
   <title>{{ renderData.title or title or metadata.title }}</title>
   <meta name="description" content="{{ metaDescription or renderData.metaDescription or metadata.description }}">
   <script async src="https://identity.netlify.com/v1/netlify-identity-widget.js"></script>
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-  <link rel="stylesheet" id="ubermenu-css" href="https://abbs.edu.in/wp-content/plugins/ubermenu/pro/assets/css/ubermenu.min.css?ver=3.6.1" type="text/css" media="all">
-  <link rel="stylesheet" id="ubermenu-black-white-2-css" href="https://abbs.edu.in/wp-content/plugins/ubermenu/assets/css/skins/blackwhite2.css?ver=5.8.1" type="text/css" media="all">
-  <link rel="stylesheet" id="ubermenu-font-awesome-all-css" href="https://abbs.edu.in/wp-content/plugins/ubermenu/assets/fontawesome/css/all.min.css?ver=5.8.1" type="text/css" media="all">
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-<link rel="stylesheet" href="https://abbs.edu.in/wp-content/themes/master-theme/js/slicknav.css">
-<script type="text/javascript" id="ubermenu-js-extra">
-/* <![CDATA[ */
-var ubermenu_data = {"remove_conflicts":"on","reposition_on_load":"off","intent_delay":"300","intent_interval":"100","intent_threshold":"7","scrollto_offset":"50","scrollto_duration":"1000","responsive_breakpoint":"959","accessible":"on","retractor_display_strategy":"responsive","touch_off_close":"on","submenu_indicator_close_mobile":"on","collapse_after_scroll":"on","v":"3.6.1","configurations":["main"],"ajax_url":"https:\/\/abbs.edu.in\/wp-admin\/admin-ajax.php","plugin_url":"https:\/\/abbs.edu.in\/wp-content\/plugins\/ubermenu\/","disable_mobile":"off","prefix_boost":"","aria_role_navigation":"off","aria_nav_label":"off","aria_expanded":"off","aria_hidden":"off","aria_controls":"","aria_responsive_toggle":"off","icon_tag":"i","theme_locations":{"top-header-menu":"Top Header Menu","header-menu":"Header Menu","footer-menu":"Footer Menu"}};
-/* ]]> */
-</script>
-<script type="text/javascript" src="https://abbs.edu.in/wp-content/plugins/ubermenu/assets/js/ubermenu.min.js?ver=3.6.1" id="ubermenu-js"></script>
+
   {% set css %}
     {% include "assets/css/inline.css" %}
-    {% include "assets/css/style.css" %}
   {% endset %}
   <style>{{ css | cssmin | safe }}</style>
   {% set js %}
