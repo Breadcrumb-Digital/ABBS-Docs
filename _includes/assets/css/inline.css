@@ -255,14 +255,14 @@ button {
 }
 .table__body .table__cell {
   text-align: left;
-  padding: 10px;
+  padding: 5px 10px;
 }
 .table__body {
   display: table-row-group;
 }
 .table__cell[data-title]:before {
   display: inline-block;
-  min-width: 120px;
+  min-width: 100px;
   content: attr(data-title) ":";
   font-weight: bold;
 }
