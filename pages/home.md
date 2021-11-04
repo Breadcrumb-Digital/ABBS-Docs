@@ -9,10 +9,10 @@ eleventyNavigation:
 list:
   - asset: /static/img/AICTE-OA-Report_2018-19.pdf
     name: AICTE. EoA
-    description: ""
+    description: Academic Year 2018-19
   - asset: /static/img/AISHE-CERTIFICATE 2019.pdf
     name: AISHE
-    description: ""
+    description: 2019-2020
   - asset: /static/img/AQAR 2019-20.pdf
     name: AQAR
     description: Yearly Status Report - 2019-2020
