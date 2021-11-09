@@ -9,7 +9,6 @@ section: home
       <th class="table__cell table__cell--head" scope="col">Name</th>
       <th class="table__cell table__cell--head" scope="col">Description</th>
       <th class="table__cell table__cell--head" scope="col">View</th>
-      <th class="table__cell table__cell--head" scope="col">Download</th>
     </tr>
   </thead>
   <tbody class="table__body">
@@ -23,9 +22,6 @@ section: home
       </td>
       <td class="table__cell" data-title="View">
         <a href="{{ doc.asset }}" target="_blank">View</a>
-      </td>
-      <td class="table__cell" data-title="Download">
-        <a download href="{{ doc.asset }}">Download</a>
       </td>
     </tr>
     {% endfor %}
